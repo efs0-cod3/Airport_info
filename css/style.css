@@ -58,6 +58,9 @@ section {
      display: inherit;
      flex-direction: column;
      margin: 0 auto;
+     color: #143F6B;
+     
+
 }
 
 section label {
@@ -67,11 +70,29 @@ section label {
 }
 
 input {
-     margin-top: 10px;
+
      margin-bottom: 10px;
      text-align: center;
+     border-radius: 5px;
+     outline: none;
+     height: 30px;
+}
+.input--warning{
+     border: solid red 3px;
+     border-radius: 5px;
+     box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.3);
 }
 
+.text{
+     visibility: hidden;
+     margin-bottom: 2px;
+     color:white;
+     margin-top: 5px;
+}
+.text--warning{
+visibility: visible;
+
+}
 .infoHere{
      text-align: center;
 }
