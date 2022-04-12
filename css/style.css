@@ -51,14 +51,12 @@ header {
      display: inherit;
      flex-direction: column;
      color: #143F6B;
-
      margin: 0 auto;
 }
 
 section {
      display: inherit;
      flex-direction: column;
-
      margin: 0 auto;
 }
 
@@ -90,15 +88,13 @@ input {
      border-radius: 8px;
      background: #FEB139;
      box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
-     transition: all ease-in-out 1s;
+     transition: all ease-in-out .3s;
 }
 
 .title, span{
      font-weight: bold;
      color: #143F6B;
-
 }
-
 
 li {
      padding: 5px;
