@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 /* Box Model Hack */
 * {
      box-sizing: border-box;
@@ -27,16 +28,29 @@ body{
      justify-content: center;
      align-items: center;
      height: 100vh;
+     background-color: #F55353;
 }
 main {
      display: flex;
      flex-direction: column;
+}
+h1{
+margin-top: 0;
+margin-bottom: 0;
+     text-transform: uppercase;
+}
+h2{
+     margin-bottom: 0;
+}
+.bx{
+     font-size: 50px;
 }
 
 header {
      text-align: center;
      display: inherit;
      flex-direction: column;
+     color: #143F6B;
 
      margin: 0 auto;
 }
@@ -51,6 +65,7 @@ section {
 section label {
      text-align: center;
      font-weight: 600;
+     color: #143F6B;
 }
 
 input {
@@ -59,17 +74,31 @@ input {
      text-align: center;
 }
 
-.listHere--active {
-     border-radius: 8px;
+.infoHere{
+     text-align: center;
+}
+
+.active {
      padding: 20px;
      margin: 30px 0;
-
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
      list-style: none;
+     border: solid 2px;
+     border-radius: 8px;
+     background: #FEB139;
+     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+     transition: all ease-in-out 1s;
 }
+
+.title, span{
+     font-weight: bold;
+     color: #143F6B;
+
+}
+
 
 li {
      padding: 5px;
